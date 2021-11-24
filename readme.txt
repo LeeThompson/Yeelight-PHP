@@ -31,8 +31,8 @@ Usage:
 
 ## This fork has been modified improving the class.
 
-* ```setDelay(value)``` sets the delay between commands, default is 100 as in the original.   Delay can be reset with ```setDelay()```
-* ```setDebug(true/false)`` enables/disables debug messages for troubleshooting.
+* setDelay(value) sets the delay between commands, default is 100 as in the original.   Delay can be reset with setDelay()
+* setDebug(true/false) enables/disables debug messages for troubleshooting.
 * The constructor now uses the default port of 55443
 * The constructor now accepts timeout as the third parameter (default is 30)
 * Arrays can now be sent as arguments per Yeelight spec.
@@ -50,6 +50,7 @@ Usage:
 
   sleep(10);
   $yee->set_rgb(0x00FF00)->set_bright(100)->commit(); // calls return the object for fast chaining of commands
+  $yee->setDelay(); // reset delay
 
   $status = $yee->get_prop(["power", "bright", "rgb" ])->commit(); // get current status of power, brightness and color (rgb)
   print_r($status);
