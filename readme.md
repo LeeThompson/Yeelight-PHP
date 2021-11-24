@@ -1,13 +1,11 @@
 <h1>Yeelight-PHP</h1>
 
-This is a tiny class to facilitate controlling the Yeelight WiFi bulbs by Xiaomi in PHP.
-
+This is a tiny class to facilitate controlling the Yeelight WiFi bulbs by Xiaomi in PHP.<p>
 Function names are dynamic and respond to the API endpoints found in the Xiaomi docs:
-https://www.yeelight.com/download/Yeelight_Inter-Operation_Spec.pdf
-
-No Composer or other crap - keep it minimal.
-This script has no external dependencies other than some PHP 5.x version and the sockets extension.
-
+https://www.yeelight.com/download/Yeelight_Inter-Operation_Spec.pdf<p>
+No Composer or other crap - keep it minimal.<br/>
+This script has no external dependencies other than some PHP 5.x version and the sockets extension.<br/>
+<p>
 Usage:
 
 <pre>
