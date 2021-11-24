@@ -1,4 +1,4 @@
-## Yeelight-PHP
+<h1>Yeelight-PHP</h1>
 
 This is a tiny class to facilitate controlling the Yeelight WiFi bulbs by Xiaomi in PHP.
 
@@ -29,13 +29,15 @@ Usage:
 
   $yee->disconnect();
 
-## This fork has been modified improving the class.
+<h2>This fork has been modified improving the class.</h2>
 
-* setDelay(value) sets the delay between commands, default is 100 as in the original.   Delay can be reset with setDelay()
-* setDebug(true/false) enables/disables debug messages for troubleshooting.
-* The constructor now uses the default port of 55443
-* The constructor now accepts timeout as the third parameter (default is 30)
-* Arrays can now be sent as arguments per Yeelight spec.
+<ul>
+<li>setDelay(value) sets the delay between commands, default is 100 as in the original.   Delay can be reset with setDelay()
+<li>setDebug(true/false) enables/disables debug messages for troubleshooting.
+<li>The constructor now uses the default port of 55443
+<li>The constructor now accepts timeout as the third parameter (default is 30)
+<li>Arrays can now be sent as arguments per Yeelight spec.
+</ul>
 
   <?php
   require "Yeelight.class.php";
