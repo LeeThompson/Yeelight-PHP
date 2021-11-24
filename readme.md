@@ -11,7 +11,6 @@ This script has no external dependencies other than some PHP 5.x version and the
 Usage:
 
 <pre>
-<?php
 require "Yeelight.class.php";
 
 $yee = new Yeelight("10.0.0.201", 55443);
@@ -42,7 +41,6 @@ $yee->disconnect();
 </ul>
 
 <pre>
-<?php
 require "Yeelight.class.php";
 
 $yee = new Yeelight("10.0.0.201");
