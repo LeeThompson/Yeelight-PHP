@@ -1,7 +1,7 @@
 <h1>Yeelight-PHP</h1>
 
 This is a modified fork of a tiny class to facilitate controlling the Yeelight WiFi bulbs by Xiaomi in PHP.<p>
-Function names are dynamic and respond to the API endpoints.<p>
+Function names are dynamic and correspond to the API endpoints.<p>
 This script has no external dependencies other than some PHP 5.x version and the sockets extension.<br/>
 See the WIKI for more information.
 
