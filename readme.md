@@ -4,6 +4,8 @@ This is a modified fork of a tiny class to facilitate controlling the Yeelight W
 Function names are dynamic and correspond to the API endpoints.<p>
 This script has no external dependencies other than some PHP 5.x version and the sockets extension.<br/>
 See the <a href="https://github.com/LeeThompson/Yeelight-PHP/wiki">WIKI</a> for more information.
+  
+You will need to enable wifi "LAN" mode for any bulbs you wish to control via the API from the Yeelight control applet.
 
 <h2>New additions:</h2>
 
