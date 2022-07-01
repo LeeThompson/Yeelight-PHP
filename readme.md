@@ -7,6 +7,8 @@ See the <a href="https://github.com/LeeThompson/Yeelight-PHP/wiki">WIKI</a> for 
   
 You will need to enable wifi "LAN" mode for any bulbs you wish to control via the API from the Yeelight control applet.
 
+NOTE: It currently is not very PHP8 friendly - fixes coming soon.
+
 <h2>New additions:</h2>
 
 <ul>
